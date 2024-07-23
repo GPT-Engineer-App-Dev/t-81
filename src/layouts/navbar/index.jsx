@@ -9,6 +9,7 @@ const Layout = () => {
       <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6 justify-between">
         <DesktopNavbar navItems={navItems} />
         <MobileSheet navItems={navItems} />
+        <h1 className="text-2xl font-bold">Todo App</h1>
       </header>
       <main className="flex-grow overflow-auto">
         <Outlet />
